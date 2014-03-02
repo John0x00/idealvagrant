@@ -47,7 +47,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     node.hostmanager.aliases = VAGRANT_ALIASES
   end
   
-  #config.vm.provision :shell, :path => "shell/bootstrap.sh"  
-  #config.vm.provision :shell, :path => "puppet/scripts/fix_tty_error.sh"
+  config.vm.provision :shell, :path => "shell/bootstrap.sh"  
   
 end
