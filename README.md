@@ -1,4 +1,3 @@
-
 #Ideal Vagrant Setup
 
 Setup for the ideal virtual machine for PHP LAMP development.
@@ -32,7 +31,7 @@ No setup in necessary but you can modify anything listed below to customize the 
 
 
  
-##Staring the Virtual Machine
+##Starting the Virtual Machine
 ```
 D:\idealvagrant> vagrant up
 Bringing machine 'box' up with 'virtualbox' provider...
