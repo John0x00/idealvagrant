@@ -1,3 +1,13 @@
+
+#################
+## idealvagrant
+#################
+.vagrant
+*.lock
+.librarian
+vendor/
+puppet/modules
+
 #################
 ## Eclipse
 #################

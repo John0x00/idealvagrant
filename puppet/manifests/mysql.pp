@@ -5,11 +5,11 @@ class { "mysql":
   root_password => 'vagrant',
 }
 
-mysql::grant { 'db1':
+mysql::grant { 'vagrant':
   mysql_privileges => 'ALL',
-  mysql_password => 'pwd',
-  mysql_db => 'db1',
-  mysql_user => 'db1',
+  mysql_password => 'vagrant',
+  mysql_db => 'vagrant',
+  mysql_user => 'vagrant',
   mysql_host => 'localhost',
 #mysql_db_init_query_file => '/full/path/to/the/schema.sql',
 }
